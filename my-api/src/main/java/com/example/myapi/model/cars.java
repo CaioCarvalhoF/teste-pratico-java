@@ -40,12 +40,12 @@ public class cars {
 	private String created_at;
 	
 	
-	public car() {
+	public cars() {
 		super();
 	}
 	
 
-	public car(String name, String description, float daily_rate, boolean avaliable, int license_plate, String color,
+	public cars(String name, String description, float daily_rate, boolean avaliable, int license_plate, String color,
 			String created_at) {
 		super();
 		this.name = name;
@@ -113,3 +113,4 @@ public class cars {
 	}
 	
 }
+ 
